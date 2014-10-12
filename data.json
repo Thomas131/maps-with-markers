@@ -1,0 +1,41 @@
+[
+	{
+		"name": "Test",
+		"locx": 10,
+		"locy": 50,
+		"mail": "e-mail@adresse.tld",
+		"type": 0
+	},
+	
+	{
+		"name": "Test1",
+		"locx": 11,
+		"locy": 51,
+		"mail": "e-mail@adresse.tld",
+		"type": 1
+	},
+	
+	{
+		"name": "Test2",
+		"locx": 12,
+		"locy": 52,
+		"mail": "e-mail@adresse.tld",
+		"type": 2
+	},
+	
+	{
+		"name": "Test3",
+		"locx": 13,
+		"locy": 53,
+		"mail": "e-mail@adresse.tld",
+		"type": 3
+	},
+	
+	{
+		"name": "Test4",
+		"locx": 14,
+		"locy": 54,
+		"mail": "e-mail@adresse.tld",
+		"type": 4
+	}
+]
