@@ -31,7 +31,7 @@
 			<?php } ?>
 		</style>
 		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=<?php echo $APT_KEY; ?>&libraries=places&language=de&v=3.exp"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=<?php echo $APT_KEY; ?>&libraries=places&language=de&v=3"></script>
 		<script type="text/javascript">
 			/**
 			 * @var array markerdata The data of the markers of the map. Added via PHP.
@@ -129,7 +129,7 @@
 					title: markerdata[id].name,
 					<?php if($IS_ADMIN) { ?>draggable:true,<?php } ?>
 					animation: google.maps.Animation.DROP,
-					icon: "images/" + markerdata[id].type + ".png"
+					icon: "images/" + markerdata[id].type + "<?php echo $FILE_EXT; ?>"
 				});
 
 				//open/close infowindow; Thanks to http://stackoverflow.com/questions/25012029/google-maps-api-js-v3-infowindow-getposition-undefined
