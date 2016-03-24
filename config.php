@@ -11,7 +11,7 @@
 	 * @var int $DEFAULT_ZOOM The default Zoom
 	 * @var int $DEFAULT_ZOOM_ON_SEARCH The default Zoom on searching a place
 	 */
-	$APT_KEY = "";
+	$API_KEY = "";
 	$PW = "";
 	$CENTER_X = 11.5;
 	$CENTER_Y = 50;
