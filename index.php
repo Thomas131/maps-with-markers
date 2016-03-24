@@ -31,7 +31,7 @@
 			<?php } ?>
 		</style>
 		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=<?php echo $APT_KEY; ?>&libraries=places&language=de&v=3"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=<?php echo $API_KEY; ?>&libraries=places&language=de&v=3"></script>
 		<script type="text/javascript">
 			/**
 			 * @var array markerdata The data of the markers of the map. Added via PHP.
